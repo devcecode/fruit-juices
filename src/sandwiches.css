@@ -1,0 +1,17 @@
+.sandwiches {
+  width: 95%;
+  max-width: 1600px;
+  margin: 29px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Monaco';
+  /* padding: 1em; */
+  border-radius: .4em;
+}
+
+@media(min-width: 760px) {
+  .sandwiches {
+    margin-top: 48px;
+  }
+}

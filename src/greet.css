@@ -1,0 +1,92 @@
+.greet {
+  height: 100vh;
+}
+
+.greet__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.back__container {
+  width: 100%;
+  height: 100%;
+  background: url(https://res.cloudinary.com/grohealth/image/upload/v1583836679/DCUK/Content/iStock-821583034.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(30px);
+  transform: scale(1.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  z-index: 100;
+  position: relative;
+  width: 90%;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.banner__img {
+  width: 100%;
+  transform: scale(1.05);
+  object-fit: cover;
+  display: block;
+}
+
+.content__banner {
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+.content__banner h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.9em;
+  padding: .5em 0;
+  text-align: center;
+  font-weight: 100;
+}
+
+.content__banner p {
+  font-family: 'Poppins', sans-serif;
+  /* color: #4b4b4b; */
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.8em;
+  color: #2e2e2e;
+  font-size: 1em;
+}
+
+.content__banner a {
+  padding: .5em 1em;
+  text-decoration: none;
+  border-radius: .2em;
+  background-color: #00d471;
+  margin-top: 1.5em;
+  color: #ffffff;
+  font-weight: 700;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  transition: .5s all;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content__banner a:hover {
+  transform: scale(1.02);
+}
